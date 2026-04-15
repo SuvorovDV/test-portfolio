@@ -6,7 +6,7 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 
 **Core Value:** Посетитель за 10 секунд понимает «кто это» и видит живые превью проектов, при этом сайт выглядит как намеренный художественный выбор, а не шаблон.
 
-**Current focus:** 🎉 MVP shipped — https://suvorovdv.github.io/test-portfolio/
+**Current focus:** 🎉 MVP shipped + redesigned (punk-zine brutalism) — https://suvorovdv.github.io/test-portfolio/
 
 ## Current Status
 
@@ -22,6 +22,7 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 - ✅ Phase 5 planned + executed (05-01 BootSequence+useBootShown, 05-02 App integration)
 - ✅ Phase 6 planned + executed (06-01 a11y fixes, 06-02 font subsetting, 06-03 budgets doc)
 - ✅ Phase 7 planned + executed (07-01 assets+meta, 07-02 GH Actions + auto-deploy)
+- ✅ Phase 8 redesign (punk-zine brutalism — cream/ink/fire red, Space Grotesk, brutalist shadows; удалены BootSequence/CRTShell/Cursor/TypedText)
 - 🚀 **LIVE**: https://suvorovdv.github.io/test-portfolio/
 
 ## Next Action
