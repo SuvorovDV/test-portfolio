@@ -1,6 +1,7 @@
 import { AboutSection } from './sections/AboutSection';
 import { ProjectsSection } from './sections/ProjectsSection';
 import { ContactSection } from './sections/ContactSection';
+import { CRTShell } from './components/CRTShell';
 import { useActiveSection } from './hooks/useActiveSection';
 import { useHashNavigation } from './hooks/useHashNavigation';
 import { SECTION_IDS, SECTION_LABELS } from './types/sections';
@@ -10,7 +11,7 @@ export function App() {
   useHashNavigation();
 
   return (
-    <>
+    <CRTShell>
       <nav aria-label="Primary">
         <ul>
           {SECTION_IDS.map((id) => (
@@ -27,6 +28,6 @@ export function App() {
         <ProjectsSection />
         <ContactSection />
       </main>
-    </>
+    </CRTShell>
   );
 }

@@ -1,0 +1,26 @@
+.cursor {
+  display: inline-block;
+  width: 0.6ch;
+  height: 1em;
+  background-color: currentColor;
+  vertical-align: text-bottom;
+  margin-left: 0.15ch;
+  animation: blink 1s steps(2) infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor {
+    animation: none;
+  }
+}

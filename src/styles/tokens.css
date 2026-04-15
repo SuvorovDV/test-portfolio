@@ -1,0 +1,31 @@
+:root {
+  /* Palette — phosphor green (меняется на amber заменой двух переменных) */
+  --phosphor: #33ff33;
+  --phosphor-dim: #1fa81f;
+  --bg: #0a0f0a;
+
+  /* Scanlines */
+  --scanline-color: rgba(0, 0, 0, 0.35);
+  --scanline-opacity: 0.1;
+  --scanline-period: 3px;
+
+  /* Glow */
+  --glow-blur-heading: 4px;
+  --glow-blur-body: 2px;
+
+  /* Vignette */
+  --vignette-intensity: rgba(0, 0, 0, 0.8);
+
+  /* Typography */
+  --font-mono: 'VT323', 'Courier New', monospace;
+  --fs-base: 18px;
+  --fs-base-desktop: 20px;
+  --lh-base: 1.35;
+
+  /* Spacing */
+  --space-1: 0.5ch;
+  --space-2: 1ch;
+  --space-3: 2ch;
+  --space-4: 4ch;
+  --space-5: 8ch;
+}
