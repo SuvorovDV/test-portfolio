@@ -1,0 +1,59 @@
+.boot {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--phosphor-dim);
+  font-family: var(--font-mono);
+  padding: var(--space-5) var(--space-4);
+  max-width: 80ch;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  color: var(--phosphor);
+  text-shadow: 0 0 var(--glow-blur-heading) var(--phosphor);
+  margin-bottom: var(--space-3);
+}
+
+.line {
+  display: block;
+  white-space: pre;
+  min-height: 1.4em;
+  opacity: 0;
+  animation: fadeIn 0.15s linear forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.ok {
+  color: var(--phosphor);
+}
+
+.final {
+  margin-top: var(--space-3);
+  color: var(--phosphor);
+}
+
+.skip {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  background: transparent;
+  border: 1px solid var(--phosphor-dim);
+  color: var(--phosphor);
+  font-family: var(--font-mono);
+  font-size: 1em;
+  padding: 0 var(--space-2);
+  cursor: pointer;
+}
+
+.skip:hover,
+.skip:focus-visible {
+  background-color: var(--phosphor);
+  color: var(--bg);
+  outline: none;
+}
