@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0f0a"/>
+  <defs>
+    <pattern id="scanlines" x="0" y="0" width="1200" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1200" height="2" fill="transparent"/>
+      <rect y="2" width="1200" height="1" fill="rgba(0,0,0,0.35)"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#scanlines)" opacity="0.1"/>
+
+  <g font-family="monospace">
+    <text x="80" y="180" font-size="72" fill="#33ff33">&gt; Suvorov Denis</text>
+    <text x="80" y="270" font-size="48" fill="#1fa81f">&gt; full-stack developer</text>
+    <text x="80" y="400" font-size="36" fill="#1fa81f">python · javascript/typescript · aiogram</text>
+    <rect x="80" y="490" width="32" height="48" fill="#33ff33">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="80" y="580" font-family="monospace" font-size="24" fill="#1fa81f">
+    suvorovdv.github.io/test-portfolio
+  </text>
+</svg>
