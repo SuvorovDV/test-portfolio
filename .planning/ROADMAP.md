@@ -17,6 +17,7 @@
 - [x] **Phase 5: Boot Sequence** — первое-посещение анимация, localStorage, skippable
 - [x] **Phase 6: A11y & Performance Pass** — WCAG AAA-контраст, focus-ring, Lighthouse ≥90, perf-бюджет
 - [x] **Phase 7: Deploy** — vite base, GH Actions workflow, OG/favicon/SEO, первый публичный урл
+- [x] **Phase 8: Redesign (Punk-zine brutalism)** — полный визуальный rebuild: cream + fire red + ink, Space Grotesk, brutalist borders + hard shadows, удалены CRT-компоненты
 
 ## Phase Details
 
