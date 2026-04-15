@@ -16,7 +16,7 @@
 - [x] **Phase 4: Project Showcase** — типы Project, ProjectCard, WebAppPreview, TelegramChatPreview, 4 заглушки
 - [x] **Phase 5: Boot Sequence** — первое-посещение анимация, localStorage, skippable
 - [x] **Phase 6: A11y & Performance Pass** — WCAG AAA-контраст, focus-ring, Lighthouse ≥90, perf-бюджет
-- [ ] **Phase 7: Deploy** — vite base, GH Actions workflow, OG/favicon/SEO, первый публичный урл
+- [x] **Phase 7: Deploy** — vite base, GH Actions workflow, OG/favicon/SEO, первый публичный урл
 
 ## Phase Details
 
@@ -134,7 +134,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | 4. Project Showcase | 3/3 | ✅ Completed | 2026-04-15 |
 | 5. Boot Sequence | 2/2 | ✅ Completed | 2026-04-15 |
 | 6. A11y & Performance | 3/3 | ✅ Completed | 2026-04-15 |
-| 7. Deploy | 0/2 | Not started | - |
+| 7. Deploy | 2/2 | ✅ Completed | 2026-04-15 |
 
 **Total**: 7 phases, 17 plans
 
