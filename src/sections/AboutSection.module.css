@@ -1,21 +1,44 @@
-.about pre {
-  font-family: var(--font-mono);
-  font-size: 1em;
-  line-height: 1.4;
-  color: var(--phosphor-dim);
-  white-space: pre-wrap;
-  margin-bottom: var(--space-3);
+.about h2 {
+  margin-bottom: var(--space-5);
 }
 
-.prompt {
-  color: var(--phosphor);
-  margin-right: var(--space-1);
+.lead {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: var(--space-4);
+  max-width: 24ch;
 }
 
-.line {
-  display: block;
+.leadAccent {
+  color: var(--accent);
 }
 
-.nameLine {
-  color: var(--phosphor);
+.body {
+  font-size: 1.1rem;
+  max-width: 60ch;
+  margin-bottom: var(--space-4);
+}
+
+.stackLabel {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-muted);
+  margin-bottom: var(--space-2);
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.stackItem {
+  padding: var(--space-1) var(--space-3);
+  border: var(--border);
+  background-color: var(--paper);
+  font-weight: 500;
+  font-size: 0.95rem;
 }

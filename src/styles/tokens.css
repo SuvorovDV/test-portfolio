@@ -1,31 +1,29 @@
 :root {
-  /* Palette — phosphor green (меняется на amber заменой двух переменных) */
-  --phosphor: #33ff33;
-  --phosphor-dim: #1fa81f;
-  --bg: #0a0f0a;
-
-  /* Scanlines */
-  --scanline-color: rgba(0, 0, 0, 0.35);
-  --scanline-opacity: 0.1;
-  --scanline-period: 3px;
-
-  /* Glow */
-  --glow-blur-heading: 4px;
-  --glow-blur-body: 2px;
-
-  /* Vignette */
-  --vignette-intensity: rgba(0, 0, 0, 0.8);
+  /* Palette — punk-zine brutalism */
+  --paper: #f4f1ea;
+  --ink: #0a0a0a;
+  --ink-muted: #4a4a4a;
+  --accent: #ff2e1f;
+  --accent-dark: #c41c10;
 
   /* Typography */
-  --font-mono: 'VT323', 'Courier New', monospace;
-  --fs-base: 18px;
-  --fs-base-desktop: 20px;
-  --lh-base: 1.35;
+  --font-sans: 'Space Grotesk Variable', 'Space Grotesk', system-ui, sans-serif;
+  --fs-base: 17px;
+  --fs-base-desktop: 19px;
+  --lh-base: 1.5;
+
+  /* Borders / shadows — hard, no blur */
+  --border-w: 3px;
+  --border: var(--border-w) solid var(--ink);
+  --shadow-offset: 6px;
+  --shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--ink);
+  --shadow-accent: var(--shadow-offset) var(--shadow-offset) 0 var(--accent);
 
   /* Spacing */
-  --space-1: 0.5ch;
-  --space-2: 1ch;
-  --space-3: 2ch;
-  --space-4: 4ch;
-  --space-5: 8ch;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
 }

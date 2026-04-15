@@ -1,30 +1,27 @@
-import { TypedText } from '../components/TypedText';
-import { Cursor } from '../components/Cursor';
 import styles from './AboutSection.module.css';
+
+const STACK = ['Python', 'TypeScript', 'React', 'aiogram', 'Node.js'];
 
 export function AboutSection() {
   return (
     <section id="about" aria-labelledby="about-heading" className={styles.about}>
-      <h2 id="about-heading">about</h2>
-      <pre>
-        <span className={`${styles.line} ${styles.nameLine}`}>
-          <span className={styles.prompt}>&gt;</span>
-          <TypedText text="Suvorov Denis" />
-          <Cursor />
-        </span>
-        <span className={styles.line}>
-          <span className={styles.prompt}>&gt;</span>
-          full-stack developer
-        </span>
-        <span className={styles.line}>
-          <span className={styles.prompt}>&gt;</span>
-          python · javascript/typescript · aiogram
-        </span>
-        <span className={styles.line}>
-          <span className={styles.prompt}>&gt;</span>
-          building web apps and telegram bots
-        </span>
-      </pre>
+      <h2 id="about-heading">About</h2>
+      <p className={styles.lead}>
+        Full-stack developer building <span className={styles.leadAccent}>web apps</span> and{' '}
+        <span className={styles.leadAccent}>Telegram bots</span>.
+      </p>
+      <p className={styles.body}>
+        I design and ship end-to-end products — from database and bot-logic in Python to frontends
+        in TypeScript. Based on comfort with both halves of the stack.
+      </p>
+      <p className={styles.stackLabel}>Stack</p>
+      <ul className={styles.stack}>
+        {STACK.map((s) => (
+          <li key={s} className={styles.stackItem}>
+            {s}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

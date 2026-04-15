@@ -1,22 +1,39 @@
 .button {
-  background: transparent;
-  border: 1px solid var(--phosphor-dim);
-  color: var(--phosphor);
-  font-family: var(--font-mono);
-  font-size: inherit;
-  padding: 0 var(--space-1);
+  display: inline-block;
+  background-color: var(--paper);
+  color: var(--ink);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  padding: var(--space-1) var(--space-3);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   cursor: pointer;
-  text-transform: lowercase;
+  transition:
+    transform 0.08s ease-out,
+    box-shadow 0.08s ease-out;
 }
 
-.button:hover,
+.button:hover {
+  background-color: var(--accent);
+  color: var(--paper);
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.button:active {
+  transform: translate(6px, 6px);
+  box-shadow: 0 0 0 var(--ink);
+}
+
 .button:focus-visible {
-  background-color: var(--phosphor);
-  color: var(--bg);
-  outline: none;
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .copied {
-  color: var(--phosphor);
-  border-color: var(--phosphor);
+  background-color: var(--accent);
+  color: var(--paper);
 }

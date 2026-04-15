@@ -13,40 +13,36 @@ const GITHUB_URL = 'https://github.com/SuvorovDV';
 
 export function ContactSection() {
   return (
-    <section id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">contact</h2>
+    <section id="contact" aria-labelledby="contact-heading" className={styles.contact}>
+      <h2 id="contact-heading">Contact</h2>
       <dl className={styles.list}>
-        <dt className={styles.label}>email</dt>
-        <dd className={styles.value}>
-          <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-        </dd>
-        <dd className={styles.action}>
-          <CopyButton value={EMAIL} />
-        </dd>
+        <div className={styles.row}>
+          <dt className={styles.label}>Email</dt>
+          <dd className={styles.value}>
+            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+          </dd>
+          <dd className={styles.action}>
+            <CopyButton value={EMAIL} />
+          </dd>
+        </div>
 
-        <dt className={styles.label}>telegram</dt>
-        <dd className={styles.value}>
-          <a href={TELEGRAM_URL} target="_blank" rel="noreferrer noopener">
-            {TELEGRAM_HANDLE}
-          </a>
-        </dd>
-        <dd className={styles.action}>
-          <a href={TELEGRAM_URL} target="_blank" rel="noreferrer noopener">
-            [open]
-          </a>
-        </dd>
+        <div className={styles.row}>
+          <dt className={styles.label}>Telegram</dt>
+          <dd className={styles.value}>
+            <a href={TELEGRAM_URL} target="_blank" rel="noreferrer noopener">
+              {TELEGRAM_HANDLE}
+            </a>
+          </dd>
+        </div>
 
-        <dt className={styles.label}>github</dt>
-        <dd className={styles.value}>
-          <a href={GITHUB_URL} target="_blank" rel="noreferrer noopener">
-            {GITHUB_HANDLE}
-          </a>
-        </dd>
-        <dd className={styles.action}>
-          <a href={GITHUB_URL} target="_blank" rel="noreferrer noopener">
-            [open]
-          </a>
-        </dd>
+        <div className={styles.row}>
+          <dt className={styles.label}>GitHub</dt>
+          <dd className={styles.value}>
+            <a href={GITHUB_URL} target="_blank" rel="noreferrer noopener">
+              {GITHUB_HANDLE}
+            </a>
+          </dd>
+        </div>
       </dl>
     </section>
   );

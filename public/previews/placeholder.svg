@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" aria-hidden="true">
-  <rect width="800" height="500" fill="#0a0f0a"/>
-  <text x="400" y="260" text-anchor="middle" fill="#33ff33" font-family="monospace" font-size="28" style="text-shadow:0 0 4px #33ff33">&gt; recording pending</text>
-  <text x="400" y="300" text-anchor="middle" fill="#1fa81f" font-family="monospace" font-size="16">run screencast and drop at public/previews/</text>
+  <rect width="800" height="500" fill="#f4f1ea"/>
+  <!-- halftone dots -->
+  <defs>
+    <pattern id="dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(10,10,10,0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#dots)"/>
+  <rect x="80" y="200" width="640" height="100" fill="#ff2e1f"/>
+  <text x="400" y="260" text-anchor="middle" fill="#0a0a0a" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="36">RECORDING PENDING</text>
+  <text x="400" y="360" text-anchor="middle" fill="#4a4a4a" font-family="'Space Grotesk',sans-serif" font-weight="500" font-size="18">drop mp4 at public/previews/</text>
 </svg>

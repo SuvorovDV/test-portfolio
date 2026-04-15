@@ -1,0 +1,74 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--paper);
+  border-bottom: var(--border);
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.brand::after {
+  content: '';
+  display: inline-block;
+  width: 0.6em;
+  height: 0.9em;
+  margin-left: 0.3em;
+  background-color: var(--accent);
+  vertical-align: text-bottom;
+}
+
+.links {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  text-decoration: none;
+  padding: var(--space-1) var(--space-2);
+}
+
+.link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.link[aria-current='location'] {
+  background-color: var(--accent);
+  color: var(--paper);
+}
+
+.link:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.link[aria-current='location']:focus-visible {
+  outline: 3px solid var(--paper);
+  outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+  .brand {
+    font-size: 0.95rem;
+  }
+}

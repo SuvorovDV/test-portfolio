@@ -1,4 +1,4 @@
-import '@fontsource/vt323/latin.css';
+import '@fontsource-variable/space-grotesk';
 import './styles/globals.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';

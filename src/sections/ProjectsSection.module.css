@@ -1,6 +1,9 @@
+.projects h2 {
+  margin-bottom: var(--space-5);
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28ch, 1fr));
-  gap: var(--space-4);
-  margin-top: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
+  gap: var(--space-5);
 }
