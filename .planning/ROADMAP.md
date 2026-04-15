@@ -10,7 +10,7 @@
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Foundation** — Vite+React+TS скелет, линтер, структура папок, hash-навигация
+- [x] **Phase 1: Foundation** — Vite+React+TS скелет, линтер, структура папок, hash-навигация
 - [ ] **Phase 2: CRT Theming** — глобальный shell, scanlines, phosphor, typography, курсор, reduced-motion
 - [ ] **Phase 3: Content Sections** — About и Contact с финальным текстом; TerminalPrompt-навбар
 - [ ] **Phase 4: Project Showcase** — типы Project, ProjectCard, WebAppPreview, TelegramChatPreview, 4 заглушки
@@ -128,7 +128,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 2/2 | ✅ Completed | 2026-04-15 |
 | 2. CRT Theming | 0/3 | Not started | - |
 | 3. Content Sections | 0/2 | Not started | - |
 | 4. Project Showcase | 0/3 | Not started | - |
