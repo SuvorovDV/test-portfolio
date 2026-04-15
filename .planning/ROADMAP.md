@@ -12,7 +12,7 @@
 
 - [x] **Phase 1: Foundation** — Vite+React+TS скелет, линтер, структура папок, hash-навигация
 - [x] **Phase 2: CRT Theming** — глобальный shell, scanlines, phosphor, typography, курсор, reduced-motion
-- [ ] **Phase 3: Content Sections** — About и Contact с финальным текстом; TerminalPrompt-навбар
+- [x] **Phase 3: Content Sections** — About и Contact с финальным текстом; TerminalPrompt-навбар
 - [ ] **Phase 4: Project Showcase** — типы Project, ProjectCard, WebAppPreview, TelegramChatPreview, 4 заглушки
 - [ ] **Phase 5: Boot Sequence** — первое-посещение анимация, localStorage, skippable
 - [ ] **Phase 6: A11y & Performance Pass** — WCAG AAA-контраст, focus-ring, Lighthouse ≥90, perf-бюджет
@@ -130,7 +130,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | ✅ Completed | 2026-04-15 |
 | 2. CRT Theming | 3/3 | ✅ Completed | 2026-04-15 |
-| 3. Content Sections | 0/2 | Not started | - |
+| 3. Content Sections | 2/2 | ✅ Completed | 2026-04-15 |
 | 4. Project Showcase | 0/3 | Not started | - |
 | 5. Boot Sequence | 0/2 | Not started | - |
 | 6. A11y & Performance | 0/3 | Not started | - |

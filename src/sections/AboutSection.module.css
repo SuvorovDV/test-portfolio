@@ -1,0 +1,21 @@
+.about pre {
+  font-family: var(--font-mono);
+  font-size: 1em;
+  line-height: 1.4;
+  color: var(--phosphor-dim);
+  white-space: pre-wrap;
+  margin-bottom: var(--space-3);
+}
+
+.prompt {
+  color: var(--phosphor);
+  margin-right: var(--space-1);
+}
+
+.line {
+  display: block;
+}
+
+.nameLine {
+  color: var(--phosphor);
+}

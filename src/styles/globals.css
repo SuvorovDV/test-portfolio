@@ -96,27 +96,6 @@ section {
   min-height: 100vh;
 }
 
-nav[aria-label='Primary'] {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background-color: var(--bg);
-  padding: var(--space-2) var(--space-4);
-  border-bottom: 1px solid var(--phosphor-dim);
-}
-
-nav[aria-label='Primary'] ul {
-  display: flex;
-  gap: var(--space-4);
-  flex-wrap: wrap;
-}
-
-nav[aria-label='Primary'] a[aria-current='location'] {
-  background-color: var(--phosphor);
-  color: var(--bg);
-  text-decoration: none;
-}
-
 main {
   max-width: 100ch;
   margin: 0 auto;

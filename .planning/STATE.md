@@ -6,7 +6,7 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 
 **Core Value:** Посетитель за 10 секунд понимает «кто это» и видит живые превью проектов, при этом сайт выглядит как намеренный художественный выбор, а не шаблон.
 
-**Current focus:** Phase 3 — Content Sections (ожидает `/gsd-plan-phase 3`)
+**Current focus:** Phase 4 — Project Showcase (ожидает `/gsd-plan-phase 4`)
 
 ## Current Status
 
@@ -17,11 +17,12 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 - ✅ ROADMAP.md — 7 фаз, 17 планов
 - ✅ Phase 1 planned + executed (01-01 bootstrap, 01-02 app-shell)
 - ✅ Phase 2 planned + executed (02-01 typography+palette, 02-02 CRTShell, 02-03 Cursor)
-- ⏳ Phase 3 — ожидает `/gsd-plan-phase 3`
+- ✅ Phase 3 planned + executed (03-01 TerminalPrompt, 03-02 About+Contact контент)
+- ⏳ Phase 4 — ожидает `/gsd-plan-phase 4`
 
 ## Next Action
 
-Запустить `/gsd-plan-phase 3` для планирования фазы Content Sections.
+Запустить `/gsd-plan-phase 4` для планирования Project Showcase.
 
 ## Active Decisions Log
 

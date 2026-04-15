@@ -16,7 +16,7 @@
 - **D-01:** Имя владельца: **Suvorov Denis**
 - **D-02:** Роль: **Full-stack developer**
 - **D-03:** Стек (основной): **Python, JavaScript/TypeScript, aiogram** (для TG-ботов)
-- **D-04:** Email: **erkodoto@gmail.com** (из git config)
+- **D-04:** Email: **erkobraxx@gmail.com** (из git config)
 - **D-05:** Telegram: **@Suvorovdv** (tg://resolve?domain=Suvorovdv)
 - **D-06:** GitHub: **github.com/SuvorovDV** (handle `SuvorovDV` — подтверждён владельцем 2026-04-15)
 
@@ -37,7 +37,7 @@
 
 - **D-11:** Формат списка — как команды в man-странице:
   ```
-  email    erkodoto@gmail.com   [copy]
+  email    erkobraxx@gmail.com   [copy]
   telegram @Suvorovdv           [open]
   github   github.com/SuvorovDV [open]
   ```
