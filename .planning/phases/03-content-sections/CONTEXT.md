@@ -18,7 +18,7 @@
 - **D-03:** Стек (основной): **Python, JavaScript/TypeScript, aiogram** (для TG-ботов)
 - **D-04:** Email: **erkodoto@gmail.com** (из git config)
 - **D-05:** Telegram: **@Suvorovdv** (tg://resolve?domain=Suvorovdv)
-- **D-06:** GitHub: **github.com/erkob** (handle `erkob` по git username — **ВАЖНО**: владелец подтвердил в предыдущем вопросе; если handle отличается, поправим в SUMMARY)
+- **D-06:** GitHub: **github.com/SuvorovDV** (handle `SuvorovDV` — подтверждён владельцем 2026-04-15)
 
 ## About content
 
@@ -39,13 +39,13 @@
   ```
   email    erkodoto@gmail.com   [copy]
   telegram @Suvorovdv           [open]
-  github   github.com/erkob     [open]
+  github   github.com/SuvorovDV [open]
   ```
   Три ряда с табличным выравниванием через `display: grid; grid-template-columns: 10ch 1fr auto`.
 - **D-12:** Email обфускация: **не** показывать plain-text в HTML, а собирать строку из data-attributes JS-ом при рендере (простой split `erkodoto` + `@` + `gmail.com`). Достаточно от базовых regex-скраперов, не от целевых.
 - **D-13:** Copy-to-clipboard: `navigator.clipboard.writeText(email)`, после копирования на 2с сменить label с `[copy]` на `[copied]`.
 - **D-14:** Telegram link: `tg://resolve?domain=Suvorovdv` — открывает приложение Telegram напрямую; в `href` также дубль `https://t.me/Suvorovdv` для клиентов без tg://. Решено: **использовать `https://t.me/Suvorovdv`** (работает везде и редиректит в tg:// если установлен).
-- **D-15:** GitHub link: `https://github.com/erkob` (внешняя).
+- **D-15:** GitHub link: `https://github.com/SuvorovDV` (внешняя).
 
 ## TerminalPrompt (navbar)
 
