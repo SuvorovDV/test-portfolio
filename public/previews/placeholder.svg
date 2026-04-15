@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" aria-hidden="true">
+  <rect width="800" height="500" fill="#0a0f0a"/>
+  <text x="400" y="260" text-anchor="middle" fill="#33ff33" font-family="monospace" font-size="28" style="text-shadow:0 0 4px #33ff33">&gt; recording pending</text>
+  <text x="400" y="300" text-anchor="middle" fill="#1fa81f" font-family="monospace" font-size="16">run screencast and drop at public/previews/</text>
+</svg>

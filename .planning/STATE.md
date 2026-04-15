@@ -6,7 +6,7 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 
 **Core Value:** Посетитель за 10 секунд понимает «кто это» и видит живые превью проектов, при этом сайт выглядит как намеренный художественный выбор, а не шаблон.
 
-**Current focus:** Phase 4 — Project Showcase (ожидает `/gsd-plan-phase 4`)
+**Current focus:** Phase 5 — Boot Sequence (ожидает `/gsd-plan-phase 5`)
 
 ## Current Status
 
@@ -18,11 +18,12 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 - ✅ Phase 1 planned + executed (01-01 bootstrap, 01-02 app-shell)
 - ✅ Phase 2 planned + executed (02-01 typography+palette, 02-02 CRTShell, 02-03 Cursor)
 - ✅ Phase 3 planned + executed (03-01 TerminalPrompt, 03-02 About+Contact контент)
-- ⏳ Phase 4 — ожидает `/gsd-plan-phase 4`
+- ✅ Phase 4 planned + executed (04-01 types/data/ProjectCard, 04-02 WebAppPreview, 04-03 TelegramChatPreview)
+- ⏳ Phase 5 — ожидает `/gsd-plan-phase 5`
 
 ## Next Action
 
-Запустить `/gsd-plan-phase 4` для планирования Project Showcase.
+Запустить `/gsd-plan-phase 5` для планирования Boot Sequence.
 
 ## Active Decisions Log
 
