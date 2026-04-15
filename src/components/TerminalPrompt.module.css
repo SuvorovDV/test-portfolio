@@ -41,16 +41,26 @@
   padding: 0 var(--space-1);
 }
 
-.command:hover,
+.command:hover {
+  background-color: var(--phosphor);
+  color: var(--bg);
+}
+
 .command:focus-visible {
   background-color: var(--phosphor);
   color: var(--bg);
-  outline: none;
+  outline: 2px solid var(--phosphor);
+  outline-offset: 2px;
 }
 
 .command[aria-current='location'] {
   background-color: var(--phosphor);
   color: var(--bg);
+}
+
+.command[aria-current='location']:focus-visible {
+  outline: 2px solid var(--bg);
+  outline-offset: 2px;
 }
 
 .activeCursor {

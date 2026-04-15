@@ -6,7 +6,7 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 
 **Core Value:** Посетитель за 10 секунд понимает «кто это» и видит живые превью проектов, при этом сайт выглядит как намеренный художественный выбор, а не шаблон.
 
-**Current focus:** Phase 6 — A11y & Performance (ожидает `/gsd-plan-phase 6`)
+**Current focus:** Phase 7 — Deploy (ожидает `/gsd-plan-phase 7`)
 
 ## Current Status
 
@@ -20,11 +20,12 @@ See: `.planning/PROJECT.md` (updated 2026-04-15)
 - ✅ Phase 3 planned + executed (03-01 TerminalPrompt, 03-02 About+Contact контент)
 - ✅ Phase 4 planned + executed (04-01 types/data/ProjectCard, 04-02 WebAppPreview, 04-03 TelegramChatPreview)
 - ✅ Phase 5 planned + executed (05-01 BootSequence+useBootShown, 05-02 App integration)
-- ⏳ Phase 6 — ожидает `/gsd-plan-phase 6`
+- ✅ Phase 6 planned + executed (06-01 a11y fixes, 06-02 font subsetting, 06-03 budgets doc)
+- ⏳ Phase 7 — ожидает `/gsd-plan-phase 7`
 
 ## Next Action
 
-Запустить `/gsd-plan-phase 6` для планирования A11y & Performance Pass.
+Запустить `/gsd-plan-phase 7` для планирования Deploy.
 
 ## Active Decisions Log
 

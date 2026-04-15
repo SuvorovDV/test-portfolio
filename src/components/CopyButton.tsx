@@ -30,6 +30,7 @@ export function CopyButton({
       onClick={handleClick}
       className={`${styles.button} ${copied ? styles.copied : ''}`}
       aria-live="polite"
+      aria-label={copied ? 'Copied to clipboard' : 'Copy to clipboard'}
     >
       {copied ? copiedLabel : label}
     </button>
